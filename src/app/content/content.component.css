@@ -1,0 +1,22 @@
+.section_div {
+  margin: 0px 0px 25px 0px;
+}
+.section_div .section_content {
+  height: 400px;
+  position: relative;
+  width:49%;
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+}
+.section_content:first-child {
+  margin-right:2%;
+  position: relative;
+}
+.section_content:first-child p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 22px;
+  font-weight: 600;
+}

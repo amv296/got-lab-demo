@@ -1,0 +1,41 @@
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="row">
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 1</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 2</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 3</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 4</a><p>One line Desc</p></div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/item-->
+    <div class="item">
+      <div class="row">
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 5</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 6</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 7</a><p>One line Desc</p></div>
+        <div class="col-sm-3" (click)="modal.show()"><a href="#">Activity 8</a><p>One line Desc</p></div>
+      </div>
+      <!--/row-->
+    </div>
+  </div>
+  <!--/carousel-inner-->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+</div>
+
+<app-modal #modal>
+  <div class="app-modal-header">
+    header
+  </div>
+  <div class="app-modal-body">
+    Whatever content you like, form fields, anything
+  </div>
+  <div class="app-modal-footer">
+    <button type="button" class="btn btn-primary" (click)="modal.hide()">Close</button>
+    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+  </div>
+</app-modal>

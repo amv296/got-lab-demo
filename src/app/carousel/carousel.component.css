@@ -1,0 +1,35 @@
+/* carousel style */
+.carousel-inner .item .col-sm-3 {
+  height: 100px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid #e7e7e7;
+  padding-top: 35px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.carousel-inner .item .col-sm-3 a {
+  color: #000000;
+}
+.carousel-control {
+  width:5%;
+}
+.carousel-control.left {
+  background-image: none;
+  border-left: 2px solid #e7e7e7;
+  font-size: 25px;
+  color: #000000;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.carousel-control.right {
+  background-image: none;
+  border-right: 2px solid #e7e7e7;
+  font-size: 25px;
+  color: #000000;
+  padding-top: 30px;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+}
